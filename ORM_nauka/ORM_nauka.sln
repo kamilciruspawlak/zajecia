@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORM_nauka", "ORM_nauka\ORM_nauka.csproj", "{F1D0C002-B8D0-4FFD-AE14-0754B8CB2FA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shoping_list", "shoping_list\shoping_list.csproj", "{E85117F9-2F77-4A70-A5DE-143C16FCB7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contact", "contact\contact.csproj", "{6D028ECD-1D8D-4FA4-BF50-8D6FF8F2DEB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1D0C002-B8D0-4FFD-AE14-0754B8CB2FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1D0C002-B8D0-4FFD-AE14-0754B8CB2FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1D0C002-B8D0-4FFD-AE14-0754B8CB2FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1D0C002-B8D0-4FFD-AE14-0754B8CB2FA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E85117F9-2F77-4A70-A5DE-143C16FCB7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E85117F9-2F77-4A70-A5DE-143C16FCB7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E85117F9-2F77-4A70-A5DE-143C16FCB7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E85117F9-2F77-4A70-A5DE-143C16FCB7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D028ECD-1D8D-4FA4-BF50-8D6FF8F2DEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D028ECD-1D8D-4FA4-BF50-8D6FF8F2DEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D028ECD-1D8D-4FA4-BF50-8D6FF8F2DEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D028ECD-1D8D-4FA4-BF50-8D6FF8F2DEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
