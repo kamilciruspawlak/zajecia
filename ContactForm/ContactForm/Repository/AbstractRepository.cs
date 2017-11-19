@@ -39,7 +39,13 @@ namespace ContactForm.Repository
         {
             using(var context = new Models.AppContext())
             {
+                if(context.Entry(entity).State == EntityState.Detached)
+                {
+                    context.Set<T>().Attach(entity);
+                }
+
                 context.Set<T>().Remove(entity);
+                context.SaveChanges();
             }
         }
     }
