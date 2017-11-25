@@ -9,17 +9,19 @@ using System.Web.Mvc;
 using ContactForm.Models;
 using ContactForm.Service;
 using ContactForm.Repository;
+using ContactForm.Interface;
+using ContactForm.Repository.Interfaces;
 
 namespace ContactForm.Controllers
 {
     public class ContactFormsController : Controller
     {
-        private EmailService _emailService;
-        private ContactFormRepository _contactRepository;
-        public ContactFormsController()
+        private IEmailService _emailService;
+        private IContactFormRepository _contactRepository;
+        public ContactFormsController(IEmailService emailService, IContactFormRepository contactFormRepository)
         {
-            _emailService = new EmailService();
-            _contactRepository = new ContactFormRepository();
+            _emailService = emailService;
+            _contactRepository = contactFormRepository;
         }
 
        

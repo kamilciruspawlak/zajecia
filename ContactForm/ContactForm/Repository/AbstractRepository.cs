@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ContactForm.Repository.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -9,7 +10,7 @@ using System.Web;
 namespace ContactForm.Repository
 {
     public class AbstractRepository<T> where T : class
-    {
+    { 
         public virtual void Create(T entity)
         {
             using(var context = new Models.AppContext())
